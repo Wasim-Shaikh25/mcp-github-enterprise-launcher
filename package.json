@@ -1,0 +1,43 @@
+{
+  "name": "mcp-github-enterprise-launcher",
+  "version": "1.1.0",
+  "description": "Node.js MCP stdio launcher with optional bundled github-mcp-server binary—publish with vendor/ for npx-only installs.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "github",
+    "github-enterprise",
+    "cursor",
+    "stdio"
+  ],
+  "license": "MIT",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wasim-Shaikh25/mcp-github-enterprise-launcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wasim-Shaikh25/mcp-github-enterprise-launcher/issues"
+  },
+  "homepage": "https://github.com/Wasim-Shaikh25/mcp-github-enterprise-launcher#readme",
+  "bin": {
+    "mcp-github-enterprise-launcher": "./bin/mcp-github-enterprise-launcher.mjs"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "vendor",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "bundle": "node scripts/bundle-github.mjs",
+    "smoke-test": "node scripts/smoke-test.mjs",
+    "prepublishOnly": "node --check bin/mcp-github-enterprise-launcher.mjs && node scripts/verify-bundle.mjs"
+  }
+}

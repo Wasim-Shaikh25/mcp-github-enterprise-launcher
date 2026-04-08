@@ -1,0 +1,7 @@
+node_modules/
+*.tgz
+.npmrc
+
+# Large bundled artifacts (run npm run bundle before publish; do not commit binaries)
+vendor/*
+!vendor/README.md
