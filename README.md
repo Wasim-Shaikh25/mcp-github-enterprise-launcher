@@ -9,8 +9,8 @@ Node.js **stdio launcher** for a **GitHub Enterprise MCP server** binary (for ex
 | Project | Purpose |
 |---------|---------|
 | **SonarQube MCP launcher** | [mcp-sonarqube-launcher](https://github.com/Wasim-Shaikh25/mcp-sonarqube-launcher) — same pattern for a SonarQube MCP **`.jar`**. |
-| **Jira MCP** | npm [`@svasimahmed283/jira-mcp-oauth`](https://www.npmjs.com/package/@svasimahmed283/jira-mcp-oauth) — full MCP server for Jira. |
-| **Confluence MCP** | npm [`@svasimahmed283/confluence-sso-mcp`](https://www.npmjs.com/package/@svasimahmed283/confluence-sso-mcp) — full MCP server for Confluence. |
+| **Jira MCP** | npm [`jira-mcp-oauth`](https://www.npmjs.com/package/jira-mcp-oauth) — full MCP server for Jira. |
+| **Confluence MCP** | npm [`confluence-sso-mcp`](https://www.npmjs.com/package/confluence-sso-mcp) — full MCP server for Confluence. |
 
 ---
 
