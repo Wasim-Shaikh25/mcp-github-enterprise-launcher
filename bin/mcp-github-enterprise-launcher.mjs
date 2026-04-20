@@ -50,6 +50,7 @@ const child = spawn(exe, childArgs, {
   stdio: "inherit",
   env: process.env,
   windowsHide: true,
+  shell: false,
 });
 
 function forward(sig) {
